@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ashi.acm_study.topic">
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Choose Technology to study "
+        android:textSize="20sp"
+        android:id="@+id/textView"
+        android:gravity="center"
+        android:textColor="#000"
+        android:layout_height="40dp"
+        />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/topics_list"
+        android:layout_below="@+id/textView">
+    </ListView>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress3"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#fff"
+        android:layout_marginBottom="225dp" />
+</RelativeLayout>

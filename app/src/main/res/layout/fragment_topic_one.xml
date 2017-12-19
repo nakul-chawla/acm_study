@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ashi.acm_study.new1">
+    <VideoView
+        android:id="@+id/videovie"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+         />
+    <ProgressBar
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/videovie"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="90dp"
+        android:id="@+id/progressbar"/>
+
+</RelativeLayout>
